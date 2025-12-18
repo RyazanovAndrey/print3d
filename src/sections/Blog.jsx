@@ -17,14 +17,13 @@ const Blog = () => {
         </div>
         <Swiper
           spaceBetween={20}
-          slidesPerView={4}
           loop
           grabCursor
           autoplay={{ delay: 2000 }}
           modules={[Autoplay]}
           speed={500}
           breakpoints={{
-            400: {
+            100: {
               slidesPerView: 1
             },
             576: {
